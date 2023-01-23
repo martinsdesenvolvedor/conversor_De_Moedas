@@ -52,7 +52,8 @@ function conversao() {
   var numero = Number(inputNumero.value);
   var conversao = inputConversao.value;
 
-  var result = calculo(numero, conversao);
+  var valor = calculo(numero, conversao);
+  var result = valor.toFixed(2);
   resultadoConversao.textContent = result;
 }
 
