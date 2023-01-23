@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(/assets/img/real_Brasileiro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.container {
+  padding: 60px;
+  max-width: 300px;
+  height: 400px;
+  background: rgb(0, 0, 0, 0.75);
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+#numero,
+.moeda {
+  background-color: #333;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 3rem;
+}
+
+#numero:hover,
+.moeda:hover {
+  background-color: #444;
+}
+
+legend {
+  font-size: 0.8rem;
+  color: azure;
+  text-align: center;
+  margin-bottom: 0.3rem;
+}
+
+.moeda__opcoes {
+  font-size: 0.8rem;
+}
+
+.button {
+  display: flex;
+  justify-content: space-around;
+}
+
+#botao {
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  margin-bottom: 2rem;
+}
+
+#botao:hover {
+  background-color: #fc1722;
+  cursor: pointer;
+}
+
+p {
+  font-size: 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 5rem 0 0 0;
+}
+
+.titulo,
+.paragrafo {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: rgb(10, 9, 9);
+}

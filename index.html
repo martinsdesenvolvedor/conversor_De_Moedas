@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <input
+          id="numero"
+          type="number"
+          value=" "
+          placeholder="Digite um valor em reais"
+          required
+        />
+      </div>
+
+      <div class="moedas">
+        <legend>Escolha uma moeda para conversão:</legend>
+        <select class="moeda" id="conversao">
+          <option class="moeda__opcoes">Dólar Americano</option>
+          <option class="moeda__opcoes">Euro</option>
+          <option class="moeda__opcoes">Libra Esterlina</option>
+          <option class="moeda__opcoes">Iene</option>
+          <option class="moeda__opcoes">Dólar Australiano</option>
+          <option class="moeda__opcoes">Franco Suiço</option>
+          <option class="moeda__opcoes">Dólar Canadense</option>
+          <option class="moeda__opcoes">Peso Argentino</option>
+          <option class="moeda__opcoes">Lira Turca</option>
+          <option class="moeda__opcoes">Yuan (Renminbi)</option>
+        </select>
+      </div>
+
+      <div class="button">
+        <button id="botao">Converter</button>
+      </div>
+
+      <div>
+        <p>O valor convertido é: <strong id="resultado"></strong></p>
+      </div>
+    </div>
+
+    <footer>
+      <h2 class="titulo">Desenvolvido por Martins</h2>
+      <p class="paragrafo">2023</p>
+    </footer>
+  </body>
+
+  <script src="./assets/js/script.js"></script>
+</html>
